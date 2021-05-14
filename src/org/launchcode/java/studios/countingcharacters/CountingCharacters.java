@@ -12,7 +12,7 @@ public class CountingCharacters {
 
         System.out.println("Enter a word or phrase or ENTER to use default: ");
         userStr = input.nextLine();
-
+        
         if (!userStr.equals("")) {
             str = userStr;
         }
